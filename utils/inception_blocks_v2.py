@@ -6,7 +6,7 @@ from keras.models import Model
 from keras.layers import BatchNormalization
 from keras.layers import MaxPooling2D, AveragePooling2D
 from utils import fr_utils
-from keras.layers.core import Lambda, Flatten, Dense
+from keras.layers import Lambda, Flatten, Dense
 
 
 def inception_block_1a(X):
